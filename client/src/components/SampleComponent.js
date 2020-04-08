@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 
-class Start extends Component {
+class SampleComponent extends Component {
 
     constructor(props) {
         super(props);
@@ -10,14 +9,18 @@ class Start extends Component {
         };
     }
 
+    componentDidMount() {
+        //
+    }
+
     render() {
         return (
             <div>
-                <Link to="/app">Enter</Link>
+                <h1>Welcome</h1>
             </div>
         );
     }
 
 }
 
-export default Start;
+export default SampleComponent;
